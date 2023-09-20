@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   // YY/MM/DD формат даты
   // нужно указывать месяц на один меньше от текущего, например февраль это второй (2) месяц, мы пишем (1).
-  const deadline = new Date(2023, 8, 30);
+  const deadline = new Date(2023, 9, 30);
   // id таймера
   let timerId = null;
   // склонение числительных
